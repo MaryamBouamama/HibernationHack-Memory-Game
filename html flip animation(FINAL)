@@ -1,0 +1,109 @@
+<!--game info container part can be substituded w the container for the score info at the top; it's there to keep the cards aligned in the grid-->
+<div class="game-container">
+  <div class="game-info-container">
+    <div class="game-info">
+      <span id="time-remaining"></span>
+    </div>
+    <div class="game-info">
+       <span id="time-remaining"></span>
+    </div>
+  </div>
+
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="pillow" src="images/pillow.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="eyebags" src="images/eyebags.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="crescent" src="images/crescent.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="pillow" src="images/pillow.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="eyebags" src="images/eyebags.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="crescent" src="images/crescent.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="bed" src="images/bed.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="bed" src="images/bed.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="zzz" src="images/zzz.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="zzz" src="images/zzz.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="yawn" src="images/yawn.png">
+    </div> 
+  </div>
+  <div class="card ">
+    <div class="card-back card-face">
+      <img class="blank" src="images/blank.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="yawn" src="images/yawn.png">
+    </div> 
+  </div>
+</div>
+  
