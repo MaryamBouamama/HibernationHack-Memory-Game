@@ -1,7 +1,3 @@
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
 
     //card options
@@ -65,6 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
+    const commentBox = document.getElementById('comment')
+    const comment = document.createElement('p')
+
     //check for matches
     function checkForMatch() {
       const cards = document.querySelectorAll('img')
@@ -74,10 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if(optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
-        alert('You have clicked the same image!')
+        commentBox.innerHTML = '<h3>You have clicked the same image!</h3>'
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
-        alert('You found a match')
+        commentBox.innerHTML = '<h3>Match!</h3>'
         cards[optionOneId].setAttribute('src', 'images/white.png')
         cards[optionTwoId].setAttribute('src', 'images/white.png')
         cards[optionOneId].removeEventListener('click', flipCard)
@@ -86,13 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
-        alert('Sorry, try again')
+        commentBox.innerHTML = '<h3>Sorry, try again!</h3>'
       }
       cardsChosen = []
       cardsChosenId = []
       resultDisplay.textContent = cardsWon.length
       if  (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations! You found them all!'
+        resultDisplay.textContent = ' 6/6'
+        commentBox.innerHTML = '<h3>Congratulations! You found them all</h3>'
       }
     }
   
@@ -111,8 +111,5 @@ document.addEventListener('DOMContentLoaded', () => {
     createBoard()
 
     
+    
   })
-
-  
-
-  
